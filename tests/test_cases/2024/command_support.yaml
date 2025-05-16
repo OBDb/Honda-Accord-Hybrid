@@ -56,7 +56,7 @@ unsupported_commands_by_ecu:
   DA0E:
   - DA0E.222610
   - DA0E.222611
-  - DA0E.222612
+  - DA0E.222612:HONDA_GEAR_V2,HONDA_GEAR_V3
   - DA0E.222662
   - DA0E.22266D
   DA10:
