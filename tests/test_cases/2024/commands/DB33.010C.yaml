@@ -1,77 +1,77 @@
 command_id: DB33.010C
 test_cases:
-- response: 18DAF10704410C0000
-  expected_values:
+- expected_values:
     RPM: 0
-- response: |-
+  response: 18DAF10704410C0000
+- expected_values:
+    RPM: 0
+  response: |-
     18DAF10704410C0000
     18DAF1EF04410C0000
     18DAF10204410C0000
     18DAF11004410C0000
     18DAF10104410C0000
     18DAF10604410C0000
-  expected_values:
-    RPM: 0
-- response: 18DAF10704410C21FC
-  expected_values:
+- expected_values:
     RPM: 2175
-- response: 18DAF1EF04410C0000
-  expected_values:
+  response: 18DAF10704410C21FC
+- expected_values:
     RPM: 0
-- response: |-
+  response: 18DAF1EF04410C0000
+- expected_values:
+    RPM: 0
+  response: |-
     18DAF1EF04410C0000
     18DAF10704410C0000
     18DAF10204410C0000
     18DAF11004410C0000
     18DAF10104410C0000
     18DAF10604410C0000
-  expected_values:
+- expected_values:
     RPM: 0
-- response: |-
+  response: |-
     18DAF1EF04410C0000
     18DAF10704410C0000
     18DAF10604410C0000
     18DAF11004410C0000
     18DAF10104410C0000
     18DAF10204410C0000
-  expected_values:
+- expected_values:
     RPM: 0
-- response: |-
+  response: |-
     18DAF1EF04410C0000
     18DAF10704410C0000
     18DAF11004410C0000
     18DAF10204410C0000
     18DAF10104410C0000
     18DAF10604410C0000
-  expected_values:
-    RPM: 0
-- response: |-
+- expected_values:
+    RPM: 2051
+  response: |-
     18DAF1EF04410C200C
     18DAF10704410C2040
     18DAF10204410C200C
     18DAF11004410C2050
     18DAF10104410C201C
     18DAF10604410C200C
-  expected_values:
-    RPM: 2051
-- response: |-
+- expected_values:
+    RPM: 2340
+  response: |-
     18DAF1EF04410C247C
     18DAF10704410C2490
     18DAF10204410C2490
     18DAF11004410C2490
     18DAF10104410C247C
     18DAF10604410C2490
-  expected_values:
-    RPM: 2340
-- response: |-
+- expected_values:
+    RPM: 2356
+  response: |-
     18DAF1EF04410C24D4
     18DAF10704410C24D4
     18DAF11004410C24E0
     18DAF10604410C24D0
     18DAF10104410C24CC
     18DAF10204410C24D0
-  expected_values:
-    RPM: 2356
-- response: 18DAF1EF04410C4A7C
-  expected_values:
+- expected_values:
     RPM: 4767
+  response: 18DAF1EF04410C4A7C

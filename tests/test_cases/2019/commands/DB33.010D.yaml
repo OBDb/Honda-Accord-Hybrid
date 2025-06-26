@@ -1,39 +1,46 @@
 command_id: DB33.010D
 test_cases:
-- response: 18DAF10103410D00
-  expected_values:
+- expected_values:
     VSS: 0
-- response: |-
-    18DAF10103410D0B
-    18DAF10603410D0B
-    18DAF10203410D0B
-    18DAF10E03410D0B
-  expected_values:
-    VSS: 11
-- response: |-
+  response: 18DAF10103410D00
+- expected_values:
+    VSS: 0
+  response: |-
+    18DAF10103410D00
+    18DAF10603410D00
+    18DAF10203410D00
+    18DAF10E03410D00
+- expected_values:
+    VSS: 13
+  response: |-
     18DAF10103410D0D
     18DAF10E03410D0D
     18DAF10603410D0D
     18DAF10203410D0D
-  expected_values:
-    VSS: 13
-- response: |-
-    18DAF10103410D3E
-    18DAF10203410D3E
-    18DAF10603410D3F
-    18DAF10E03410D3E
-  expected_values:
-    VSS: 62
-- response: 18DAF10E03410D00
-  expected_values:
+- expected_values:
+    VSS: 111
+  response: |-
+    18DAF10103410D6F
+    18DAF10E03410D6F
+    18DAF10203410D6F
+    18DAF10603410D6F
+- expected_values:
+    VSS: 110
+  response: |-
+    18DAF10203410D6E
+    18DAF10103410D6E
+    18DAF10E03410D6E
+    18DAF10603410D6E
+- expected_values:
     VSS: 0
-- response: |-
+  response: 18DAF10E03410D00
+- expected_values:
+    VSS: 0
+  response: |-
     18DAF10E03410D00
     18DAF10103410D00
     18DAF10603410D00
     18DAF10203410D00
-  expected_values:
-    VSS: 0
-- response: 18DAF10E03410D4D
-  expected_values:
-    VSS: 77
+- expected_values:
+    VSS: 119
+  response: 18DAF10E03410D77
