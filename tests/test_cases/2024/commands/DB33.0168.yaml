@@ -1,9 +1,6 @@
 command_id: DB33.0168
 test_cases:
-- response: |-
-    18DAF11010094168033F4300
-    18DAF1102100000055555555
-  expected_values:
+- expected_values:
     IAT_11: 23
     IAT_11_SUP: 1
     IAT_12: 27
@@ -16,10 +13,10 @@ test_cases:
     IAT_22_SUP: 0
     IAT_23: -40
     IAT_23_SUP: 0
-- response: |-
-    18DAF1101009416803404200
+  response: |-
+    18DAF11010094168033F4300
     18DAF1102100000055555555
-  expected_values:
+- expected_values:
     IAT_11: 24
     IAT_11_SUP: 1
     IAT_12: 26
@@ -32,10 +29,10 @@ test_cases:
     IAT_22_SUP: 0
     IAT_23: -40
     IAT_23_SUP: 0
-- response: |-
-    18DAF1101009416803536000
+  response: |-
+    18DAF1101009416803404200
     18DAF1102100000055555555
-  expected_values:
+- expected_values:
     IAT_11: 43
     IAT_11_SUP: 1
     IAT_12: 56
@@ -48,10 +45,10 @@ test_cases:
     IAT_22_SUP: 0
     IAT_23: -40
     IAT_23_SUP: 0
-- response: |-
-    18DAF11010094168035B5E00
+  response: |-
+    18DAF1101009416803536000
     18DAF1102100000055555555
-  expected_values:
+- expected_values:
     IAT_11: 51
     IAT_11_SUP: 1
     IAT_12: 54
@@ -64,3 +61,6 @@ test_cases:
     IAT_22_SUP: 0
     IAT_23: -40
     IAT_23_SUP: 0
+  response: |-
+    18DAF11010094168035B5E00
+    18DAF1102100000055555555
