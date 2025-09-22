@@ -40,6 +40,7 @@ supported_commands_by_ecu:
   - 0149:APP_D
   - 014A:APP_E
   - 014C:TAC_PCT
+  - 7E0.0131:CLR_DIST
 unsupported_commands_by_ecu:
   "DA0E":
   - DA0E.222610
