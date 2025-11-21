@@ -60,6 +60,7 @@ unsupported_commands_by_ecu:
   - DA10.222660
   "DA11":
   - DA11.000011.222666
+  - DA11.11.222660:HONDA_RUNTM_V2
   "DA1E":
   - DA1E.1E.223086:HONDA_GEAR_V2
   "DA26":
