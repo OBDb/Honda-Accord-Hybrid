@@ -54,6 +54,7 @@ supported_commands_by_ecu:
   - DB33.0106:SHRTFT1
   - DB33.010D:VSS
   - DB33.0149:APP_D
+  - DB33.0151:FUEL_TYP
   - DB33.015B:BAT_SOC
 unsupported_commands_by_ecu:
   "DA10":
