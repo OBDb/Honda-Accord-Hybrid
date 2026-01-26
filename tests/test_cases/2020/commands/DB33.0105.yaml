@@ -10,20 +10,26 @@ test_cases:
     18DAF10603410539
     18DAF10203410539
 - expected_values:
-    ECT: 66
+    ECT: 74
   response: |-
-    18DAF1010341056A
-    18DAF1060341056A
-    18DAF1020341056A
+    18DAF10103410572
+    18DAF10603410572
+    18DAF10203410572
 - expected_values:
-    ECT: 68
-  response: 18DAF1010341056C
-- expected_values:
-    ECT: 68
+    ECT: 87
   response: |-
-    18DAF1010341056C
-    18DAF1060341056C
-    18DAF1020341056C
+    18DAF1010341057F
+    18DAF1060341057F
+    18DAF1020341057F
+- expected_values:
+    ECT: 90
+  response: 18DAF10103410582
+- expected_values:
+    ECT: 79
+  response: |-
+    18DAF10203410577
+    18DAF10103410577
+    18DAF10603410577
 - expected_values:
     ECT: 55
   response: 18DAF1060341055F
