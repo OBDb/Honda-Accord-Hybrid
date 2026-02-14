@@ -53,6 +53,13 @@ test_cases:
     18DAF106044131B805
     18DAF10E044131003F
 - expected_values:
+    CLR_DIST: 47124
+  response: |-
+    18DAF101044131004E
+    18DAF10E044131004E
+    18DAF102044131B814
+    18DAF106044131B814
+- expected_values:
     CLR_DIST: 206
   response: 18DAF10104413100CE
 - expected_values:
@@ -70,6 +77,13 @@ test_cases:
     18DAF10E044131003F
     18DAF106044131B805
 - expected_values:
+    CLR_DIST: 47123
+  response: |-
+    18DAF102044131B813
+    18DAF10E044131004D
+    18DAF101044131004D
+    18DAF106044131B813
+- expected_values:
     CLR_DIST: 47033
   response: 18DAF106044131B7B9
 - expected_values:
@@ -82,13 +96,6 @@ test_cases:
     18DAF10104413100CE
     18DAF106044131B737
     18DAF102044131B737
-- expected_values:
-    CLR_DIST: 47073
-  response: |-
-    18DAF10E044131001B
-    18DAF102044131B7E1
-    18DAF101044131001B
-    18DAF106044131B7E1
 - expected_values:
     CLR_DIST: 47104
   response: |-
