@@ -42,6 +42,13 @@ test_cases:
     VSS: 74
   response: 18DAF10103410D4A
 - expected_values:
+    VSS: 112
+  response: |-
+    18DAF10103410D70
+    18DAF10603410D70
+    18DAF10203410D70
+    18DAF10E03410D70
+- expected_values:
     VSS: 0
   response: 18DAF10E03410D00
 - expected_values:
@@ -59,9 +66,9 @@ test_cases:
     18DAF10103410D12
     18DAF10603410D12
 - expected_values:
-    VSS: 65
+    VSS: 126
   response: |-
-    18DAF10E03410D41
-    18DAF10103410D41
-    18DAF10203410D41
-    18DAF10603410D41
+    18DAF10E03410D7E
+    18DAF10103410D7E
+    18DAF10603410D7E
+    18DAF10203410D7E
