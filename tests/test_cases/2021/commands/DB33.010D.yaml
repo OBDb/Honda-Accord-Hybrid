@@ -5,6 +5,20 @@ test_cases:
   response: 18DAF10103410D00
 - expected_values:
     VSS: 0
+  response: |-
+    18DAF10103410D00
+    18DAF10E03410D00
+    18DAF10203410D00
+    18DAF10603410D00
+- expected_values:
+    VSS: 0
+  response: |-
+    18DAF10103410D00
+    18DAF10E03410D00
+    18DAF10603410D00
+    18DAF10203410D00
+- expected_values:
+    VSS: 0
   response: 18DAF10E03410D00
 - expected_values:
     VSS: 0
@@ -13,13 +27,6 @@ test_cases:
     18DAF10103410D00
     18DAF10203410D00
     18DAF10603410D00
-- expected_values:
-    VSS: 0
-  response: |-
-    18DAF10E03410D00
-    18DAF10103410D00
-    18DAF10603410D00
-    18DAF10203410D00
 - expected_values:
     VSS: 26
   response: |-
