@@ -1,7 +1,7 @@
 command_id: DA0E.0E.222610
 test_cases:
 - expected_values:
-    HONDA_AC_CLUTCH_PCM: 0
+    HONDA_AC_CLU_PCM: 0
     HONDA_GENERATOR_PCM: 0
   response: |-
     18DAF10E1039622610FFDFBF
