@@ -53,16 +53,16 @@ test_cases:
     RPM: 0
   response: |-
     18DAF10204410C0000
+    18DAF10104410C0000
+    18DAF10E04410C0000
+    18DAF10604410C0000
+- expected_values:
+    RPM: 0
+  response: |-
+    18DAF10204410C0000
     18DAF10E04410C0000
     18DAF10104410C0000
     18DAF10604410C0000
-- expected_values:
-    RPM: 1949
-  response: |-
-    18DAF10204410C1E74
-    18DAF10104410C1EAC
-    18DAF10E04410C1E4C
-    18DAF10604410C1E74
 - expected_values:
     RPM: 0
   response: |-
