@@ -1,7 +1,7 @@
 command_id: DA0E.0E.222661
 test_cases:
 - expected_values:
-    HONDA_FUELAIR_CAR_PCM: 0
+    ACCORDH_FUELAIR_CAR_PCM: 0
   response: |-
     18DAF10E1039622661C3C000
     18DAF10E2101018011100000
