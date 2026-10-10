@@ -1,4 +1,253 @@
 { "commands": [
-
+{ "hdr": "DA01", "rax": "01", "cmd": {"22": "2028"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2022, 2023, 2024], "from": 2026 },
+  "signals": [
+    {"id": "ACCORDH_CEL_V_A1",  "path": "Battery.Cells", "fmt": {"bix": 216,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A1"},
+    {"id": "ACCORDH_CEL_V_A2",  "path": "Battery.Cells", "fmt": {"bix": 232,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A2"},
+    {"id": "ACCORDH_CEL_V_A3",  "path": "Battery.Cells", "fmt": {"bix": 248,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A3"},
+    {"id": "ACCORDH_CEL_V_A4",  "path": "Battery.Cells", "fmt": {"bix": 264,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A4"},
+    {"id": "ACCORDH_CEL_V_A5",  "path": "Battery.Cells", "fmt": {"bix": 280,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A5"},
+    {"id": "ACCORDH_CEL_V_A6",  "path": "Battery.Cells", "fmt": {"bix": 296,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A6"},
+    {"id": "ACCORDH_CEL_V_A7",  "path": "Battery.Cells", "fmt": {"bix": 312,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A7"},
+    {"id": "ACCORDH_CEL_V_A8",  "path": "Battery.Cells", "fmt": {"bix": 328,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A8"},
+    {"id": "ACCORDH_CEL_V_A9",  "path": "Battery.Cells", "fmt": {"bix": 344,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A9"},
+    {"id": "ACCORDH_CEL_V_A10", "path": "Battery.Cells", "fmt": {"bix": 360,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A10"},
+    {"id": "ACCORDH_CEL_V_A11", "path": "Battery.Cells", "fmt": {"bix": 376,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A11"},
+    {"id": "ACCORDH_CEL_V_A12", "path": "Battery.Cells", "fmt": {"bix": 392,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A12"},
+    {"id": "ACCORDH_CEL_V_A13", "path": "Battery.Cells", "fmt": {"bix": 408,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A13"},
+    {"id": "ACCORDH_CEL_V_A14", "path": "Battery.Cells", "fmt": {"bix": 424,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A14"},
+    {"id": "ACCORDH_CEL_V_A15", "path": "Battery.Cells", "fmt": {"bix": 440,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A15"},
+    {"id": "ACCORDH_CEL_V_A16", "path": "Battery.Cells", "fmt": {"bix": 456,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A16"},
+    {"id": "ACCORDH_CEL_V_A17", "path": "Battery.Cells", "fmt": {"bix": 472,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A17"},
+    {"id": "ACCORDH_CEL_V_A18", "path": "Battery.Cells", "fmt": {"bix": 488,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A18"},
+    {"id": "ACCORDH_CEL_V_A19", "path": "Battery.Cells", "fmt": {"bix": 504,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A19"},
+    {"id": "ACCORDH_CEL_V_A20", "path": "Battery.Cells", "fmt": {"bix": 520,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A20"},
+    {"id": "ACCORDH_CEL_V_A21", "path": "Battery.Cells", "fmt": {"bix": 536,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A21"},
+    {"id": "ACCORDH_CEL_V_A22", "path": "Battery.Cells", "fmt": {"bix": 552,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A22"},
+    {"id": "ACCORDH_CEL_V_A23", "path": "Battery.Cells", "fmt": {"bix": 568,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A23"},
+    {"id": "ACCORDH_CEL_V_A24", "path": "Battery.Cells", "fmt": {"bix": 584,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A24"},
+    {"id": "ACCORDH_CEL_V_A25", "path": "Battery.Cells", "fmt": {"bix": 600,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A25"},
+    {"id": "ACCORDH_CEL_V_A26", "path": "Battery.Cells", "fmt": {"bix": 616,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A26"},
+    {"id": "ACCORDH_CEL_V_A27", "path": "Battery.Cells", "fmt": {"bix": 632,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A27"},
+    {"id": "ACCORDH_CEL_V_A28", "path": "Battery.Cells", "fmt": {"bix": 648,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A28"},
+    {"id": "ACCORDH_CEL_V_A29", "path": "Battery.Cells", "fmt": {"bix": 664,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A29"},
+    {"id": "ACCORDH_CEL_V_A30", "path": "Battery.Cells", "fmt": {"bix": 680,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A30"},
+    {"id": "ACCORDH_CEL_V_A31", "path": "Battery.Cells", "fmt": {"bix": 696,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A31"},
+    {"id": "ACCORDH_CEL_V_A32", "path": "Battery.Cells", "fmt": {"bix": 712,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A32"},
+    {"id": "ACCORDH_CEL_V_A33", "path": "Battery.Cells", "fmt": {"bix": 728,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A33"},
+    {"id": "ACCORDH_CEL_V_A34", "path": "Battery.Cells", "fmt": {"bix": 744,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A34"},
+    {"id": "ACCORDH_CEL_V_A35", "path": "Battery.Cells", "fmt": {"bix": 760,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A35"},
+    {"id": "ACCORDH_CEL_V_A36", "path": "Battery.Cells", "fmt": {"bix": 776,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A36"},
+    {"id": "ACCORDH_CEL_V_A37", "path": "Battery.Cells", "fmt": {"bix": 792,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A37"},
+    {"id": "ACCORDH_CEL_V_A38", "path": "Battery.Cells", "fmt": {"bix": 808,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A38"},
+    {"id": "ACCORDH_CEL_V_A39", "path": "Battery.Cells", "fmt": {"bix": 824,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A39"},
+    {"id": "ACCORDH_CEL_V_A40", "path": "Battery.Cells", "fmt": {"bix": 840,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A40"},
+    {"id": "ACCORDH_CEL_V_A41", "path": "Battery.Cells", "fmt": {"bix": 856,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A41"},
+    {"id": "ACCORDH_CEL_V_A42", "path": "Battery.Cells", "fmt": {"bix": 872,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A42"},
+    {"id": "ACCORDH_CEL_V_A43", "path": "Battery.Cells", "fmt": {"bix": 888,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A43"},
+    {"id": "ACCORDH_CEL_V_A44", "path": "Battery.Cells", "fmt": {"bix": 904,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A44"},
+    {"id": "ACCORDH_CEL_V_A45", "path": "Battery.Cells", "fmt": {"bix": 920,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A45"},
+    {"id": "ACCORDH_CEL_V_A46", "path": "Battery.Cells", "fmt": {"bix": 936,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A46"},
+    {"id": "ACCORDH_CEL_V_A47", "path": "Battery.Cells", "fmt": {"bix": 952,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A47"},
+    {"id": "ACCORDH_CEL_V_A48", "path": "Battery.Cells", "fmt": {"bix": 968,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A48"},
+    {"id": "ACCORDH_CEL_V_A49", "path": "Battery.Cells", "fmt": {"bix": 984,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A49"},
+    {"id": "ACCORDH_CEL_V_A50", "path": "Battery.Cells", "fmt": {"bix": 1000, "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A50"},
+    {"id": "ACCORDH_CEL_V_A51", "path": "Battery.Cells", "fmt": {"bix": 1016, "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A51"},
+    {"id": "ACCORDH_CEL_V_A52", "path": "Battery.Cells", "fmt": {"bix": 1032, "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A52"},
+    {"id": "ACCORDH_CEL_V_A53", "path": "Battery.Cells", "fmt": {"bix": 1048, "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A53"},
+    {"id": "ACCORDH_CEL_V_A54", "path": "Battery.Cells", "fmt": {"bix": 1064, "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A54"},
+    {"id": "ACCORDH_CEL_V_A55", "path": "Battery.Cells", "fmt": {"bix": 1080, "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A55"},
+    {"id": "ACCORDH_CEL_V_A56", "path": "Battery.Cells", "fmt": {"bix": 1096, "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A56"},
+    {"id": "ACCORDH_CEL_V_A57", "path": "Battery.Cells", "fmt": {"bix": 1112, "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A57"},
+    {"id": "ACCORDH_CEL_V_A58", "path": "Battery.Cells", "fmt": {"bix": 1128, "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A58"},
+    {"id": "ACCORDH_CEL_V_A59", "path": "Battery.Cells", "fmt": {"bix": 1144, "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A59"},
+    {"id": "ACCORDH_CEL_V_A60", "path": "Battery.Cells", "fmt": {"bix": 1160, "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A60"},
+    {"id": "ACCORDH_CEL_V_A61", "path": "Battery.Cells", "fmt": {"bix": 1176, "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A61"},
+    {"id": "ACCORDH_CEL_V_A62", "path": "Battery.Cells", "fmt": {"bix": 1192, "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A62"},
+    {"id": "ACCORDH_CEL_V_A63", "path": "Battery.Cells", "fmt": {"bix": 1208, "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A63"},
+    {"id": "ACCORDH_CEL_V_A64", "path": "Battery.Cells", "fmt": {"bix": 1224, "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A64"},
+    {"id": "ACCORDH_CEL_V_A65", "path": "Battery.Cells", "fmt": {"bix": 1240, "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A65"},
+    {"id": "ACCORDH_CEL_V_A66", "path": "Battery.Cells", "fmt": {"bix": 1256, "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A66"},
+    {"id": "ACCORDH_CEL_V_A67", "path": "Battery.Cells", "fmt": {"bix": 1272, "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A67"},
+    {"id": "ACCORDH_CEL_V_A68", "path": "Battery.Cells", "fmt": {"bix": 1288, "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A68"},
+    {"id": "ACCORDH_CEL_V_A69", "path": "Battery.Cells", "fmt": {"bix": 1304, "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A69"},
+    {"id": "ACCORDH_CEL_V_A70", "path": "Battery.Cells", "fmt": {"bix": 1320, "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A70"},
+    {"id": "ACCORDH_CEL_V_A71", "path": "Battery.Cells", "fmt": {"bix": 1336, "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A71"},
+    {"id": "ACCORDH_CEL_V_A72", "path": "Battery.Cells", "fmt": {"bix": 1352, "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A72"}
+  ]},
+{ "hdr": "DA01", "rax": "01", "cmd": {"22": "202A"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2022, 2023, 2024], "from": 2026 },
+  "signals": [
+    {"id": "ACCORDH_SOC",          "path": "Battery", "fmt": {"bix": 400,  "len": 8,  "max": 100,                                           "unit": "percent"     }, "name": "State of charge",                                 "suggestedMetric": "stateOfCharge"},
+    {"id": "ACCORDH_HVB_C_TOTAL",  "path": "Battery", "fmt": {"bix": 456,  "len": 16, "max": 200,    "min": -100, "div": 50,  "sign": true, "unit": "amps"        }, "name": "High voltage battery total current",              "suggestedMetric": "tractionBatteryCurrent"},
+    {"id": "ACCORDH_HVB_V",        "path": "Battery", "fmt": {"bix": 488,  "len": 16, "max": 400,                 "div": 20,                "unit": "volts"       }, "name": "High voltage battery voltage",                    "suggestedMetric": "tractionBatteryVoltage"},
+    {"id": "ACCORDH_CELL_MAX_SOC", "path": "Battery", "fmt": {"bix": 584,  "len": 16, "max": 100,                 "div": 100,               "unit": "percent"     }, "name": "High voltage battery cells, max state of charge"},
+    {"id": "ACCORDH_CELL_MIN_SOC", "path": "Battery", "fmt": {"bix": 600,  "len": 16, "max": 100,                 "div": 100,               "unit": "percent"     }, "name": "High voltage battery cells, max state of charge"},
+    {"id": "ACCORDH_AAT_CAB",      "path": "Engine",  "fmt": {"bix": 832,  "len": 8,  "max": 127,    "min": -40,              "sign": true, "unit": "celsius"     }, "name": "Ambient air temperature, cabin"},
+    {"id": "ACCORDH_AAT_OUT",      "path": "Engine",  "fmt": {"bix": 840,  "len": 8,  "max": 127,    "min": -40,              "sign": true, "unit": "celsius"     }, "name": "Ambient air temperature, outside"},
+    {"id": "ACCORDH_HVB_CAP",      "path": "Battery", "fmt": {"bix": 1336, "len": 16, "max": 655.35,              "div": 100,               "unit": "ampereHours" }, "name": "High voltage battery total capacity"}
+  ]},
+{ "hdr": "DA01", "rax": "01", "cmd": {"22": "202C"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2022, 2023, 2024], "from": 2026 },
+  "signals": [
+    {"id": "ACCORDH_HVB_MOD_1A_T", "path": "Battery", "fmt": {"bix": 472,  "len": 16, "max": 215, "min": -40, "div": 10, "sign": true, "unit": "celsius" }, "name": "High voltage battery module 1A temperature"},
+    {"id": "ACCORDH_HVB_MOD_3A_T", "path": "Battery", "fmt": {"bix": 504,  "len": 16, "max": 215, "min": -40, "div": 10, "sign": true, "unit": "celsius" }, "name": "High voltage battery module 3A temperature"},
+    {"id": "ACCORDH_ECT_1",        "path": "Engine",  "fmt": {"bix": 1608, "len": 16, "max": 215, "min": -40, "div": 10, "sign": true, "unit": "celsius" }, "name": "Engine coolant temperature sensor 1",        "suggestedMetric": "engineCoolantTemperature"},
+    {"id": "ACCORDH_ECT_2",        "path": "Engine",  "fmt": {"bix": 1624, "len": 16, "max": 215, "min": -40, "div": 10, "sign": true, "unit": "celsius" }, "name": "Engine coolant temperature sensor 2",        "suggestedMetric": "engineCoolantTemperature"},
+    {"id": "ACCORDH_ECT_3",        "path": "Engine",  "fmt": {"bix": 1640, "len": 16, "max": 215, "min": -40, "div": 10, "sign": true, "unit": "celsius" }, "name": "Engine coolant temperature sensor 3",        "suggestedMetric": "engineCoolantTemperature"},
+    {"id": "ACCORDH_ECT_4",        "path": "Engine",  "fmt": {"bix": 1656, "len": 16, "max": 215, "min": -40, "div": 10, "sign": true, "unit": "celsius" }, "name": "Engine coolant temperature sensor 4",        "suggestedMetric": "engineCoolantTemperature"}
+  ]},
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2240"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019], "from": 2022 },
+  "signals": [
+    {"id": "ACCORDH_BAT_DIST", "path": "Battery", "fmt": {"bix": 80, "len": 32, "max": 250000, "unit": "kilometers" }, "name": "Distance traveled since last charge"}
+  ]},
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2610"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2023 },
+  "signals": [
+    {"id": "ACCORDH_GENERATOR_PCM", "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Generator"},
+    {"id": "ACCORDH_AC_CLU_PCM",    "path": "Engine", "fmt": {"bix": 262, "len": 1, "max": 1,                           "unit": "offon"   }, "name": "A/C clutch"}
+  ]},
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2611"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2023 },
+  "signals": [
+    {"id": "ACCORDH_FUEL_AIR_RAT_PCM", "path": "Fuel",   "fmt": {           "len": 8,  "max": 255,                             "nullmax": 255,  "unit": "scalar" }, "name": "Fuel/air commanded equivalence ratio"},
+    {"id": "ACCORDH_AIRGAS_RATIO_PCM", "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 29.4, "mul": 29.4, "div": 65535, "nullmax": 29.4, "unit": "scalar" }, "name": "Air/gas ratio"}
+  ]},
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2612"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2023 },
+  "signals": [
+    {"id": "ACCORDH_CURRENT_GEAR_VAR_2", "path": "Transmission", "fmt": {"bix": 352, "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear var.2"},
+    {"id": "ACCORDH_CURRENT_GEAR_VAR_3", "path": "Transmission", "fmt": {"bix": 368, "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear var.3"}
+  ]},
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2613"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019], "from": 2022 },
+  "signals": [
+    {"id": "ACCORDH_AC_P", "path": "Climate", "fmt": {"bix": 120, "len": 16, "max": 4000, "unit": "kilopascal" }, "name": "A/C pressure"}
+  ]},
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2615"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2022 },
+  "signals": [
+    {"id": "ACCORDH_ACTIVE_CYL_PCM", "path": "Engine", "fmt": {"bix": 400, "len": 8, "max": 6, "unit": "scalar" }, "name": "Active cylinders"}
+  ]},
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2660"}, "freq": 30, "dbgfilter": { "to": 2020, "from": 2022 },
+  "signals": [
+    {"id": "ACCORDH_ODO_PCM",   "path": "Trips",  "fmt": {"bix": 344, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer",                "suggestedMetric": "odometer"},
+    {"id": "ACCORDH_RUNTM_PCM", "path": "Clocks", "fmt": {"bix": 368, "len": 16, "max": 65535,    "unit": "seconds"    }, "name": "Time since engine start", "description": "How long it's been since the engine started."}
+  ]},
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2661"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2022 },
+  "signals": [
+    {"id": "ACCORDH_FUELAIR_CAR_PCM", "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 29.4, "div": 2229.08163265, "unit": "scalar" }, "name": "Fuel/air commanded equivalence ratio"}
+  ]},
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2662"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2023 },
+  "signals": [
+    {"id": "ACCORDH_KNOCK_CTRL_PCM", "path": "ECU",    "fmt": {"bix": 80,  "len": 8, "max": 2,   "mul": 2,   "div": 255, "unit": "scalar"  }, "name": "Knock control"},
+    {"id": "ACCORDH_VTC_DUTY_PCM",   "path": "Engine", "fmt": {"bix": 224, "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Variable valve timing duty"}
+  ]},
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2663"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2022 },
+  "signals": [
+    {"id": "ACCORDH_MIS_CNT_1_VAR_3_PCM", "path": "Engine", "fmt": {"bix": 160, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #1, variant 3"},
+    {"id": "ACCORDH_MIS_CNT_2_VAR_3_PCM", "path": "Engine", "fmt": {"bix": 176, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #2, variant 3"},
+    {"id": "ACCORDH_MIS_CNT_3_VAR_3_PCM", "path": "Engine", "fmt": {"bix": 192, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #3, variant 3"},
+    {"id": "ACCORDH_MIS_CNT_4_VAR_3_PCM", "path": "Engine", "fmt": {"bix": 208, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #4, variant 3"},
+    {"id": "ACCORDH_MIS_CNT_5_VAR_3_PCM", "path": "Engine", "fmt": {"bix": 224, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #5, variant 3"},
+    {"id": "ACCORDH_MIS_CNT_6_VAR_3_PCM", "path": "Engine", "fmt": {"bix": 240, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #6, variant 3"},
+    {"id": "ACCORDH_MIS_1_PCM",           "path": "ECU",    "fmt": {"bix": 272, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count, cylinder 1"},
+    {"id": "ACCORDH_MIS_2_PCM",           "path": "ECU",    "fmt": {"bix": 288, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count, cylinder 2"},
+    {"id": "ACCORDH_MIS_3_PCM",           "path": "ECU",    "fmt": {"bix": 304, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count, cylinder 3"},
+    {"id": "ACCORDH_MIS_4_PCM",           "path": "ECU",    "fmt": {"bix": 320, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count, cylinder 4"},
+    {"id": "ACCORDH_MIS_5_PCM",           "path": "ECU",    "fmt": {"bix": 336, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count, cylinder 5"},
+    {"id": "ACCORDH_MIS_6_PCM",           "path": "ECU",    "fmt": {"bix": 352, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count, cylinder 6"}
+  ]},
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "266C"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+  "signals": [
+    {"id": "ACCORDH_MIS_CNT_1_VAR_1_PCM", "path": "Engine", "fmt": {"bix": 48, "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count #1, variant 1"},
+    {"id": "ACCORDH_MIS_CNT_2_VAR_1_PCM", "path": "Engine", "fmt": {"bix": 56, "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count #2, variant 1"},
+    {"id": "ACCORDH_MIS_CNT_3_VAR_1_PCM", "path": "Engine", "fmt": {"bix": 64, "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count #3, variant 1"},
+    {"id": "ACCORDH_MIS_CNT_4_VAR_1_PCM", "path": "Engine", "fmt": {"bix": 72, "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count #4, variant 1"},
+    {"id": "ACCORDH_MIS_CNT_5_VAR_1_PCM", "path": "Engine", "fmt": {"bix": 80, "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count #5, variant 1"},
+    {"id": "ACCORDH_MIS_CNT_6_VAR_1_PCM", "path": "Engine", "fmt": {"bix": 88, "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count #6, variant 1"}
+  ]},
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "266D"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2023 },
+  "signals": [
+    {"id": "ACCORDH_AIR_FUEL_MIXTURE", "path": "Fuel", "fmt": {"bix": 72, "len": 8, "max": 127, "div": 2, "unit": "percent" }, "name": "Air-fuel mixture heater"}
+  ]},
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2610"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023, 2024], "from": 2026 },
+  "signals": [
+    {"id": "ACCORDH_GENERATOR", "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Generator"},
+    {"id": "ACCORDH_AC_CLUTCH", "path": "Engine", "fmt": {"bix": 262, "len": 1, "max": 1,                           "unit": "offon"   }, "name": "A/C clutch"}
+  ]},
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2611"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
+  "signals": [
+    {"id": "ACCORDH_FUEL_AIR_RATIO", "path": "Fuel",   "fmt": {           "len": 8,  "max": 255,                             "nullmax": 255, "unit": "scalar" }, "name": "Fuel/air commanded equivalence ratio"},
+    {"id": "ACCORDH_AIRGAS_RATIO",   "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 29.4, "mul": 29.4, "div": 65535,                 "unit": "scalar" }, "name": "Air/gas ratio"}
+  ]},
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2612"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
+  "signals": [
+    {"id": "ACCORDH_VTEC_CTRL", "path": "ECU", "fmt": {"bix": 168, "len": 8, "max": 255, "unit": "scalar" }, "name": "Variable valve control"}
+  ]},
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2615"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
+  "signals": [
+    {"id": "ACCORDH_ACTIVE_CYL", "path": "Engine", "fmt": {"bix": 400, "len": 8, "max": 6, "unit": "scalar" }, "name": "Active cylinders"}
+  ]},
+{ "hdr": "DA10", "rax": "10", "fcm1": true, "cmd": {"22": "2660"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
+  "signals": [
+    {"id": "ACCORDH_ODO",   "path": "Trips",  "fmt": {"bix": 344, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer",                "suggestedMetric": "odometer"},
+    {"id": "ACCORDH_RUNTM", "path": "Clocks", "fmt": {"bix": 368, "len": 16, "max": 65535,    "unit": "seconds"    }, "name": "Time since engine start", "description": "How long it's been since the engine started."}
+  ]},
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2661"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023, 2024], "from": 2026 },
+  "signals": [
+    {"id": "ACCORDH_FUELAIR_CAR", "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 29.4, "div": 2229.08163265, "unit": "scalar" }, "name": "Fuel/air commanded equivalence ratio"}
+  ]},
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2662"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
+  "signals": [
+    {"id": "ACCORDH_KNOCK_CONTROL", "path": "Engine", "fmt": {"bix": 80,  "len": 8, "max": 2,   "mul": 2,   "div": 255, "unit": "unknown" }, "name": "Knock control",                "description": "ECU's determination of fuel quality."},
+    {"id": "ACCORDH_VTC_DUTY",      "path": "Engine", "fmt": {"bix": 224, "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Variable timing control duty", "description": "How long the valve is energized versus how long it's not energized, expressed as a percentage. The higher the duty percentage, the more the cam timing is advanced toward its maximum potential."}
+  ]},
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2663"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023, 2024], "from": 2026 },
+  "signals": [
+    {"id": "ACCORDH_MIS_1", "path": "Engine", "fmt": {"bix": 272, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #1"},
+    {"id": "ACCORDH_MIS_2", "path": "Engine", "fmt": {"bix": 288, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #2"},
+    {"id": "ACCORDH_MIS_3", "path": "Engine", "fmt": {"bix": 304, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #3"},
+    {"id": "ACCORDH_MIS_4", "path": "Engine", "fmt": {"bix": 320, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #4"}
+  ]},
+{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4004"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2022, 2023, 2024], "from": 2026 },
+  "signals": [
+    {"id": "ACCORDH_BRK_SW", "path": "Electrical", "fmt": {"bix": 127, "len": 1, "max": 1, "unit": "offon" }, "name": "Brake switch"}
+  ]},
+{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4005"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2022, 2023, 2024], "from": 2026 },
+  "signals": [
+    {"id": "ACCORDH_BRK_P", "path": "Electrical", "fmt": {"bix": 56, "len": 16, "max": 120, "add": -25, "unit": "bars" }, "name": "Brake pressure"}
+  ]},
+{ "hdr": "DA2A", "rax": "2A", "cmd": {"22": "4201"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2022, 2023, 2024], "from": 2026 },
+  "signals": [
+    {"id": "ACCORDH_BRK_PED_STK",  "path": "Electrical", "fmt": {"bix": 88,  "len": 16, "max": 50,                     "div": 10,                "unit": "millimeters" }, "name": "Brake pedal stroke"},
+    {"id": "ACCORDH_BRK_FLD_P",    "path": "Electrical", "fmt": {"bix": 168, "len": 16, "max": 5,                      "div": 100,               "unit": "unknown"     }, "name": "Brake fluid pressure"},
+    {"id": "ACCORDH_MSTR_CYL_STK", "path": "Electrical", "fmt": {"bix": 232, "len": 16, "max": 3276.7, "min": -3276.8, "div": 10,  "sign": true, "unit": "millimeters" }, "name": "Master cylinder stroke"},
+    {"id": "ACCORDH_SLV_CYL_STK",  "path": "Electrical", "fmt": {"bix": 248, "len": 16, "max": 6553.5,                 "div": 10,                "unit": "millimeters" }, "name": "Slave cylinder stroke"}
+  ]},
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7022"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2022, 2023, 2024], "from": 2026 },
+  "signals": [
+    {"id": "ACCORDH_ODO_V3", "path": "Trips", "fmt": {"bix": 48, "len": 24, "max": 200000, "unit": "miles" }, "name": "Odometer, variation 3"}
+  ]},
+{ "hdr": "DA60", "rax": "60", "fcm1": true, "cmd": {"22": "7028"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2022, 2023, 2024], "from": 2026 },
+  "signals": [
+    {"id": "ACCORDH_AAT", "path": "Climate", "fmt": {"bix": 132, "len": 12, "max": 2047, "min": -40, "sign": true, "nullmax": 141, "unit": "fahrenheit" }, "name": "Outside air temperature"}
+  ]},
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7029"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2023], "from": 2026 },
+  "signals": [
+    {"id": "ACCORDH_FLV", "path": "Fuel", "fmt": {"bix": 96, "len": 16, "max": 655, "div": 100, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
+  ]},
+{ "hdr": "DBEF", "cmd": {"22": "2001"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
+  "signals": [
+    {"id": "ACCORDH_MOTOR_INVERTER_CURRENT",      "path": "Engine",   "fmt": {"bix": 48,  "len": 16, "max": 327.67,  "min": -327.68,                "div": 100,             "sign": true, "unit": "amps"       }, "name": "Motor inverter, current"},
+    {"id": "ACCORDH_BATTERY_COOLANT_TEMPERATURE", "path": "Battery",  "fmt": {"bix": 88,  "len": 8,  "max": 215,     "min": -40,                                "add": -40,               "unit": "celsius"    }, "name": "Battery coolant temperature"},
+    {"id": "ACCORDH_BATTERY_MODULE_POWER",        "path": "Battery",  "fmt": {"bix": 168, "len": 16, "max": 524.272, "min": -524.288, "mul": 0.016,                         "sign": true, "unit": "kilowatts"  }, "name": "Battery module power"},
+    {"id": "ACCORDH_GENERATOR_MOTOR_SPEED",       "path": "Movement", "fmt": {"bix": 184, "len": 8,  "max": 16320,                    "mul": 64,                                          "unit": "rpm"        }, "name": "Generator motor speed"},
+    {"id": "ACCORDH_CABIN_AIR_TEMPERATURE",       "path": "Engine",   "fmt": {"bix": 200, "len": 8,  "max": 491,                      "mul": 1.8,               "add": 32,                "unit": "fahrenheit" }, "name": "Cabin air temperature"},
+    {"id": "ACCORDH_HV_BATTERY_FAN_3_SPEED",      "path": "Battery",  "fmt": {"bix": 288, "len": 8,  "max": 25500,                    "mul": 100,                                         "unit": "rpm"        }, "name": "HV battery fan 3 speed"}
+  ]},
+{ "hdr": "DBEF", "cmd": {"22": "2010"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
+  "signals": [
+    {"id": "ACCORDH_HV_BATTERY_CURRENT",          "path": "Battery", "fmt": {"bix": 32,  "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "amps"    }, "name": "HV battery current"},
+    {"id": "ACCORDH_DC_DC_CONVERTER_TEMPERATURE", "path": "Engine",  "fmt": {"bix": 104, "len": 16, "max": 3276.7, "min": -3276.8, "div": 10,  "sign": true, "unit": "celsius" }, "name": "DC-DC converter temperature"}
+  ]},
+{ "hdr": "DBEF", "cmd": {"22": "2012"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+  "signals": [
+    {"id": "ACCORDH_HV_BATTERY_USABLE_CAPACITY",          "path": "Battery", "fmt": {"bix": 32,  "len": 8,  "max": 100,                                           "unit": "percent" }, "name": "HV battery usable capacity"},
+    {"id": "ACCORDH_STATE_OF_CHARGE",                     "path": "Battery", "fmt": {"bix": 40,  "len": 8,  "max": 100,                                           "unit": "percent" }, "name": "State of charge"},
+    {"id": "ACCORDH_HV_BATTERY_CELL_MAX_STATE_OF_CHARGE", "path": "Battery", "fmt": {"bix": 208, "len": 16, "max": 100, "min": -327.68, "div": 100, "sign": true, "unit": "percent" }, "name": "HV battery cell max state of charge"}
+  ]}
 ]
 }

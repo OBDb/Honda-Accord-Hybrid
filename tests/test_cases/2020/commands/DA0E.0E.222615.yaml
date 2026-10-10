@@ -1,7 +1,7 @@
 command_id: DA0E.0E.222615
 test_cases:
 - expected_values:
-    HONDA_ACTIVE_CYL_PCM: 0
+    ACCORDH_ACTIVE_CYL_PCM: 0
   response: |-
     18DAF10E1039622615000000
     18DAF10E2100300000000000

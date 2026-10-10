@@ -1,7 +1,7 @@
 command_id: DA10.10.222661
 test_cases:
 - expected_values:
-    HONDA_FUELAIR_CAR: 0
+    ACCORDH_FUELAIR_CAR: 0
   response: |-
     18DAF1101039622661C0C000
     18DAF1102100000010000000
