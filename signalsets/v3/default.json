@@ -1,4 +1,8 @@
-{ "commands": [
+{ "ecu": [
+    { "hdr": "DA01", "type": "battery" },
+    { "hdr": "DA0E", "type": "engine" }
+  ],
+  "commands": [
 { "hdr": "DA01", "rax": "01", "cmd": {"22": "2028"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "ACCORDH_CEL_V_A1",  "path": "Battery.Cells", "fmt": {"bix": 216,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A1"},
