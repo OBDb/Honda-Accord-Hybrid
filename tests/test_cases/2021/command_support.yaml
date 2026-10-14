@@ -141,9 +141,12 @@ supported_commands_by_ecu:
 unsupported_commands_by_ecu:
   "DA01":
   - DA01.000001.0104
+  - DA01.000001.0105
   - DA01.000001.010C
   - DA01.000001.010D
+  - DA01.000001.0111
   - DA01.000001.0131
+  - DA01.000001.0142
   "DA0E":
   - DA0E.00000E.0106
   - DA0E.00000E.0124
