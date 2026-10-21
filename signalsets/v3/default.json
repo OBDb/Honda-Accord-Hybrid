@@ -179,7 +179,8 @@
   ]},
 { "hdr": "DA10", "rax": "10", "cmd": {"22": "2612"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
-    {"id": "ACCORDH_VTEC_CTRL", "path": "ECU", "fmt": {"bix": 168, "len": 8, "max": 255, "unit": "scalar" }, "name": "Variable valve control"}
+    {"id": "ACCORDH_VTEC_PSW", "path": "Engine", "fmt": {"bix": 174, "len": 1, "max": 1, "unit": "offon" }, "name": "VTEC pressure switch"},
+    {"id": "ACCORDH_VTEC_SOL", "path": "Engine", "fmt": {"bix": 175, "len": 1, "max": 1, "unit": "offon" }, "name": "VTEC solenoid valve"}
   ]},
 { "hdr": "DA10", "rax": "10", "cmd": {"22": "2615"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
