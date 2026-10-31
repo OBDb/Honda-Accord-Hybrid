@@ -43,8 +43,8 @@ test_cases:
   response: |-
     18DAF10103410D8C
     18DAF10E03410D8C
-    18DAF10603410D8C
     18DAF10203410D8C
+    18DAF10603410D8C
 - expected_values:
     VSS: 0
   response: |-
