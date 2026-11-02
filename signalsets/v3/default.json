@@ -230,7 +230,7 @@
   "signals": [
     {"id": "ACCORDH_AAT", "path": "Climate", "fmt": {"bix": 132, "len": 12, "max": 2047, "min": -40, "sign": true, "nullmax": 141, "unit": "fahrenheit" }, "name": "Outside air temperature"}
   ]},
-{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7029"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2023], "from": 2026 },
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7029"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2023], "from": 2026 },
   "signals": [
     {"id": "ACCORDH_FLV", "path": "Fuel", "fmt": {"bix": 96, "len": 16, "max": 655, "div": 100, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
